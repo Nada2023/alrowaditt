@@ -1,0 +1,255 @@
+
+/* Team.css */
+.gridcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1067px;
+    height: 1100px;
+    margin: 10px auto;
+    background: url('../../../public/Vector.png') no-repeat center center;
+    background-size: cover;
+}
+
+.team h2{
+    color: #000;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.item img{
+    width: 70% !important;
+    border-radius: 50% !important;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.07);
+}
+
+
+.teamshape {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%, 100% 50%, 50% 50%, 50% 0);
+}
+
+.teammember {
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*transition: transform 0.8s ease-in-out;*/
+    /*animation-direction: alternate;*/
+}
+
+.teammember img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Commented out hover effect for now */
+/* .team-teammember:hover { */
+/*    transform: rotate(360deg) scale(0.8); */
+/* } */
+
+
+.member-1 { top: 160px; left: 450px; width: 72px; height: 120px; }          /*  mohamed */
+.member-2 { top: 241px; left: 380px; width: 72px; height: 120px; }       /*  eman */
+.member-3 { top: 160px; left: 597px; width: 72px; height: 120px; }         /*  amany */
+.member-4 { top: 241px; left: 523px; width: 72px; height: 120px; }        /*  esraa */
+.member-5 { top: 332px; right: 153px; width: 72px; height: 120px; }         /*  kholod */
+.member-6 { top: 160px; left: 170px; width: 72px; height: 120px; }         /*  eman */
+.member-7 { top: 160px; left:310px; width: 72px; height: 120px; }         /*  ahmed */
+.member-8 { top: 543px; right: 153px; width: 72px; height: 120px; }         /*  hazem */
+.member-9 { bottom: 198px; right: 294px; width: 72px; height: 120px; }         /*  adel */
+.member-10 { top: 380px; left: 170px; width: 72px; height: 120px; }        /*  marwa */
+.member-11 { top: 422px; right: 230px; width: 72px; height: 120px; }        /*  nada */
+.member-12 { top: 263px; left: 100px; width: 72px; height: 120px; }        /*  yara */
+.member-13 { top: 500px; left: 100px; width: 72px; height: 120px; }        /*  fatma */
+.member-14 {  top: 500px; left: 225px; width: 72px; height: 120px;}        /*  Nada */
+.member-19 { top: 543px; right: 275px; width: 72px; height: 120px; }        /*  mohamed_sh */
+.member-23 { top: 664px; right: 220px; width: 72px; height: 120px; }        /*  mostafa */
+.member-17 { bottom: 118px; right: 367px; width: 72px; height: 120px; }       /*  fawzia */
+.member-18 {bottom: 198px; right: 440px;  width: 72px; height: 120px; }       /*  shaimaa */
+.member-15 { top: 690px; left: 100px; width: 72px; height: 120px; }       /*  fady */
+.member-20 { bottom: 118px; right: 220px; width: 72px; height: 120px; }       /*  mina */
+.member-21 { bottom: 118px; right: 514px;  width: 72px; height: 120px; }       /*  haidy */
+.member-22 { top: 620px; left: 170px; width: 72px; height: 120px; }       /*  eman_hamed */
+.member-16 { top: 263px; left: 230px; width: 72px; height: 114px; }       /*  amr */
+.member-24 { bottom: 198px; right: 150px; width: 72px; height: 120px; }       /*  mahmoud */
+.member-25 { bottom: 198px; right: 585px;  width: 72px; height: 120px; }  /* yahia */
+.member-26 { bottom: 118px; right: 660px; width: 72px; height: 120px; }   /* ahmed_s*/
+
+.centertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #0951FE;
+}
+
+.centertext h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 40px 58px 22px 0px;
+}
+
+
+.centertext p {
+    font-size: 16px;
+    margin: 0px 58px 22px 0px;
+}
+
+.team h2 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.item img {
+    width: 70% !important;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.07);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .gridcontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 747px;
+        height: 770px;
+        margin: 10px auto;
+        background: url('../../../public/Vector.png') no-repeat center center;
+        background-size: cover;
+    }
+
+    .teamshape {
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        clip-path: polygon(0 0, 0% 100%, 100% 100%, 100% 50%, 50% 50%, 50% 0);
+    }
+
+    .member-1 { top: 112px; left: 315px; width: 50px; height: 84px; }          /*  mohamed */
+    .member-2 { top: 168.7px; left: 266px; width: 50px; height: 84px; }       /*  eman */
+    .member-3 { top: 112px; left: 418px; width: 50px; height: 84px; }         /*  amany */
+    .member-4 { top: 168.7px; left: 366.1px; width: 50px; height: 84px; }        /*  esraa */
+    .member-5 { top: 232.4px; right: 107.1px; width: 50px; height: 84px; }   /*kholoud*/
+    .member-6 { top: 112px; left: 119px; width: 50px; height: 84px; }         /*  eman */
+    .member-7 { top: 112px; left:217px; width: 50px; height: 84px; }         /*  ahmed */
+    .member-8 { top: 380.1px; right: 107.1px; width: 50px; height: 84px; }         /*  hazem */
+    .member-9 { bottom: 138.6px; right: 205.8px; width: 50px; height: 84px; }         /*  adel */
+    .member-10 { top: 266px; left: 119px; width: 50px; height: 84px; }        /*  marwa */
+    .member-11 { top: 295.4px; right: 161px; width: 50px; height: 84px; }        /*  nada */
+    .member-12 { top: 184.1px; left: 70px; width: 50px; height: 84px; }        /*  yara */
+    .member-13 { top: 350px; left: 70px; width: 50px; height: 84px; }        /*  fatma */
+    .member-14 {  top: 350px; left: 157.5px; width: 50px; height: 84px;}        /*  Nada */
+    .member-19 { top: 380.1px; right: 192.5px; width: 50px; height: 84px; }        /*  mohamed_sh */
+    .member-23 { top: 464.8px; right: 154px; width: 50px; height: 84px; }        /*  mostafa */
+    .member-17 { bottom: 82.6px; right: 256.9px; width: 50px; height: 84px; }       /*  fawzia */
+    .member-18 {bottom: 138.6px; right: 308px;  width: 50px; height: 84px; }       /*  shaimaa */
+    .member-15 { top: 483px; left: 70px; width: 50px; height: 84px; }       /*  fady */
+    .member-20 { bottom: 82.6px; right: 154px; width: 50px; height: 84px; }       /*  mina */
+    .member-21 { bottom: 82.6px; right: 359.8px;  width: 50px; height: 84px; }       /*  haidy */
+    .member-22 { top: 434px; left: 119px; width: 50px; height: 84px; }       /*  eman_hamed */
+    .member-16 { top: 184.1px; left: 161px; width: 50px; height: 84px; }       /*  amr */
+    .member-24 { bottom: 138.6px; right: 105px; width: 50px; height: 84px;}       /*  mahmoud */
+    .member-25 { bottom: 138.6px; right: 409.5px;  width: 50px; height: 84px; }  /* yahia */
+    .member-26 { bottom: 82.6px; right: 462px; width: 50px; height: 84px; }   /* ahmed_s*/
+
+    .centertext {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #0951FE;
+    }
+
+    .centertext h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 20px 40px 11px 0px;
+    }
+
+    .centertext p {
+        font-size: 14px;
+        margin: 0px 90px 22px 60px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .gridcontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 373px;
+        height: 385px;
+        margin: 10px auto;
+        background: url('../../../public/Vector.png') no-repeat center center;
+        background-size: cover;
+    }
+
+    .teamshape {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        clip-path: polygon(0 0, 0% 100%, 100% 100%, 100% 50%, 50% 50%, 50% 0);
+    }
+
+    .member-1 { top: 56px; left: 157.5px; width: 25px; height: 42px; }          /*  mohamed */
+    .member-2 { top: 84.35px; left: 133px; width: 25px; height: 42px; }       /*  eman */
+    .member-3 { top: 56px; left: 209px; width: 25px; height: 42px;}         /*  amany */
+    .member-4 { top: 84.35px; left: 183px; width: 25px; height: 42px; }        /*  esraa */
+    .member-5 { top: 116.2px; right: 53.55px; width: 25px; height: 42px; }   /*kholoud*/
+    .member-6 { top: 56px; left: 59.5px; width: 25px; height: 42px; }         /*  eman */
+    .member-7 { top: 56px; left:108.5px;width: 25px; height: 42px; }         /*  ahmed */
+    .member-8 { top: 190px; right: 53.55px; width: 25px; height: 42px;}         /*  hazem */
+    .member-9 { bottom: 69.3px; right: 102.9px; width: 25px; height: 42px; }         /*  adel */
+    .member-10 { top: 133px; left: 59.5px; width: 25px; height: 42px; }        /*  marwa */
+    .member-11 { top: 147.7px; right: 80.5px; width: 25px; height: 42px; }        /*  nada */
+    .member-12 { top: 92px; left: 35px; width: 25px; height: 42px; }        /*  yara */
+    .member-13 { top: 175px; left: 35px; width: 25px; height: 42px; }        /*  fatma */
+    .member-14 {  top: 175px; left: 78.7px; width: 25px; height: 42px;}        /*  Nada */
+    .member-19 { top: 190px; right: 96.25px; width: 25px; height: 42px; }        /*  mohamed_sh */
+    .member-23 { top: 232.4px; right: 77px; width: 25px; height: 42px; }        /*  mostafa */
+    .member-17 { bottom: 41.3px; right: 128.4px; width: 25px; height: 42px;}       /*  fawzia */
+    .member-18 {bottom: 69.3px; right: 154px; width: 25px; height: 42px; }       /*  shaimaa */
+    .member-15 { top: 241.5px; left: 35px; width: 25px; height: 42px; }       /*  fady */
+    .member-20 { bottom: 41.3px; right: 77px; width: 25px; height: 42px; }       /*  mina */
+    .member-21 { bottom: 41.3px; right: 179.9px; width: 25px; height: 42px; }       /*  haidy */
+    .member-22 { top: 217px; left: 59.5px;width: 25px; height: 42px;}       /*  eman_hamed */
+    .member-16 { top: 92px; left: 80.5px; width: 25px; height: 42px; }       /*  amr */
+    .member-24 { bottom: 69.3px; right: 52.5px; width: 25px; height: 42px;}       /*  mahmoud */
+    .member-25 { bottom: 69.3px; right: 204.7px; width: 25px; height: 42px; }  /* yahia */
+    .member-26 { bottom: 41.3px; right: 231px;width: 25px; height: 42px; }   /* ahmed_s*/
+
+    .centertext {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #0951FE;
+    }
+
+    .centertext h2 {
+        font-size: 10px;
+        text-transform: uppercase;
+        margin: 0px 25px 0px 0px;
+    }
+
+    .centertext p {
+        font-size: 10px;
+        margin: 0px 35px 0px 20px;
+    }
+}

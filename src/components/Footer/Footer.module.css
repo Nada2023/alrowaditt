@@ -1,0 +1,74 @@
+
+.footer{
+    /*height: 500px;*/
+    width: 100%;
+
+    background-color: #0951FE;
+    position: relative;
+}
+
+.layout{
+    background-image: url("../../assets/img/footer.webp") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 30px 0px;
+}
+
+.footHead{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 0.625rem; /* 76.923% */
+    /*background-image: url("../../assets/img/footer.webp") ;*/
+    /*margin-bottom: 0;*/
+}
+.footer p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.footer ul li{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+/*  */
+
+
+.formLay{
+    padding: 40px ;
+    height: 100%;
+    width: 100%;
+    background-image: url("../../assets/img/frame_1.webp");
+    background-size: 100% 100%;
+}
+
+.formLay h3{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.formLay p{
+    margin: 20px 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.item{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.formLay i{
+    margin-right: 10px;
+}

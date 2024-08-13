@@ -1,0 +1,102 @@
+.partner {
+    position: relative;
+    overflow: hidden;
+}
+
+.partner h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 50px;
+}
+
+.imgPartner {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 178px;
+    height: 57px;
+    margin: 17px auto;
+}
+
+.inner {
+    background: #F5F6F8;
+    text-align: start;
+}
+
+.inner h3 {
+    color: #F8FEFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.slideContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90px !important;
+    width: 200px !important;
+    border-radius: 16px;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.slideContent img {
+    margin-bottom: 10px;
+}
+
+
+.slick-center .imgPartner {
+    transform: scale(1.8);
+    transition: transform 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+    .imgPartner {
+        margin: 20px auto;
+        width: 90px !important;
+        height: 40px !important;
+    }
+    .slideContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80px !important;
+        width: 150px !important;
+        border-radius: 16px;
+        background: #FFFFFF;
+        text-align: center;
+    }
+    .inner h3 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .imgPartner {
+        width: 50px;
+        height: 30px;
+        margin: 10px auto;
+    }
+    .slideContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60px !important;
+        width: 130px !important;
+        border-radius: 16px;
+        background: #FFFFFF;
+        text-align: center;
+    }
+    .inner h3 {
+        font-size: 14px;
+    }
+}

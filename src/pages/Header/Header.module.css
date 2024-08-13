@@ -1,0 +1,152 @@
+
+.header{
+    min-height: 100vh;
+    background-image: url('../../assets/img/Shape.png');
+    background-size: 100% 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.inner{
+    margin-top: 150px !important;
+}
+
+.header .headingTwo{
+    color: black;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.header .headingOne{
+    color: #FFFFFF !important;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.header .headingParag{
+    color: #FFFFFF;
+}
+
+.btnMainContact{
+    color: #0951FE !important;
+    background-color: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 38px !important;
+    padding: 14px 32px !important;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out !important;
+
+}
+
+.btnMainContact:hover{
+    color: #FFFFFF  !important;
+    background-color: transparent  !important;
+    border: 1px solid #FFFFFF !important;
+}
+
+body[dir='rtl'] .header{
+
+    background-image: url('../../assets/img/ShapeA.webp');
+
+}
+
+
+.imgHead{
+    border-radius: 50%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 770px) {
+
+    .header{
+        min-height: 75vh;
+        background-image: url('../../assets/img/tab.webp');
+    }
+
+    body[dir='rtl'] .header{
+        background-image: url('../../assets/img/tabA.webp');
+    }
+
+    .header .headingTwo{
+        font-size: 14px;
+    }
+
+    .header .headingOne{
+        font-size: 42px;
+    }
+
+    .inner{
+        margin-top: 120px !important;
+    }
+
+    .header .headingParag{
+        font-size: 14px;
+    }
+
+    .btnMainContact{
+        padding: 14px 25px !important;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .order{
+        order: -1;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .order{
+        order: -1;
+    }
+
+    .header{
+        background-image: url('../../assets/img/mobile.webp');
+    }
+
+    body[dir='rtl'] .header{
+        background-image: url('../../assets/img/mobileA.webp');
+
+    }
+
+    .header .headingTwo{
+        color: #0951FE;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .header .headingOne{
+        color: #0951FE !important;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .header .headingParag{
+        color: #666;
+        text-align: center;
+    }
+
+    .btnMainContact{
+        width: 100%;
+        color: #FFFFFF !important;
+        background-color: #0951FE !important;
+        border: 1px solid #0951FE !important;
+        margin-bottom: 50px;
+    }
+
+    .btnMainContact:hover{
+        color:  #0951FE  !important;
+        background-color: transparent  !important;
+        border: 1px solid  #0951FE !important;
+    }
+
+    .inner{
+        margin-top: 50px !important;
+    }
+}

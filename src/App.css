@@ -1,0 +1,63 @@
+.layoutCareer{
+  width: 1000px;
+  position: absolute;
+  top: 15%;
+  left: -30%;
+  z-index: -1;
+}
+
+
+body[dir='rtl'] .layoutCareer{
+  right: -30%;
+  left: unset;
+}
+
+.layoutService{
+  width: 1000px;
+  position: absolute;
+  top: 75%;
+  right: -20%;
+  z-index: -1;
+}
+
+body[dir='rtl'] .layoutService{
+  right: unset;
+  left: -20%;
+}
+
+.notScrolledTogg .navbar-toggler-icon{
+  background-image: url("../src/assets/img/menu.png") !important;
+}
+
+.scrolledTogg .navbar-toggler-icon{
+  background-image: url("../src/assets/img/menuBlue.png") !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-toggler{
+  border: none !important;
+}
+
+
+body[dir='rtl'] .modal-header .btn-close{
+  margin-right: auto;
+  margin-left: unset;
+}
+
+@media only screen and (max-width: 770px) {
+  .layoutCareer{
+    left: 0;
+  }
+
+
+  body[dir='rtl'] .layoutCareer{
+    right: 0;
+    left: unset;
+  }
+
+
+
+}

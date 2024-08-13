@@ -1,0 +1,160 @@
+
+/* work slider global */
+.workTestimonoals{
+width: 100% !important;zz
+    height: 450px !important;
+}
+
+.workTestimonoals .item {
+    text-align: start !important;
+    transition: all 0.3s ease-in-out;
+    margin: 20px ;
+width: 335px !important;
+    height:390px !important;
+}
+.text{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.workTestimonoals .owl-carousel .owl-item {
+    height:442px !important;
+}
+
+.workTestimonoals .owl-theme .owl-dots .owl-dot.active span,
+.workTestimonoals .owl-theme .owl-dots .owl-dot:hover span {
+    background: #0951FE;;
+    transform: translate3d(0px, -50%, 0px) scale(0.8);
+}
+
+.workTestimonoals .owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height:442px !important;
+}
+
+.workTestimonoals .owl-carousel .owl-dots .owl-dot{
+    display: inline-block;
+}
+
+.workTestimonoals .owl-carousel .owl-dots .owl-dot span{
+    background: #D9D9D9;;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    border-radius: 30px !important;
+}
+
+
+
+/* one work slider global */
+
+
+.projectTestimonoals .item {
+    text-align: start !important;
+    margin-bottom: 30px;
+    transform: scale3d(0.8, 0.8, 1);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.projectTestimonoals .item img
+{
+    opacity: 0.4;
+    transition: all 0.3s ease-in-out;
+}
+
+.projectTestimonoals .owl-item.active.center img
+{
+    opacity: 1;
+}
+
+.projectTestimonoals .owl-item.active.center .item {
+    transform: scale3d(1.0, 1.0, 1);
+}
+
+.projectTestimonoals .owl-theme .owl-dots .owl-dot.active span,
+.projectTestimonoals .owl-theme .owl-dots .owl-dot:hover span {
+    background: #0951FE;;
+    transform: translate3d(0px, -50%, 0px) scale(0.8);
+}
+
+.projectTestimonoals .owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.projectTestimonoals .owl-carousel .owl-dots .owl-dot{
+    display: inline-block;
+}
+
+.projectTestimonoals .owl-carousel .owl-dots .owl-dot span{
+    background: #D9D9D9;;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    border-radius: 30px !important;
+}
+
+.projectTestimonoals .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+
+.projectTestimonoals .owl-carousel .owl-nav button.owl-prev span{
+
+    background-color: #0951FE;
+    border-radius: 50%;
+    color: #FFFFFF;
+    padding: 0px 17px 6px 17px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align:center;
+}
+
+.projectTestimonoals .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+
+.projectTestimonoals .owl-carousel .owl-nav button.owl-next span{
+    background-color: #0951FE;
+    border-radius: 50%;
+    color: #FFFFFF;
+    padding: 0px 17px 6px 17px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align:center;
+}
+
+.projectTestimonoals .owl-theme .owl-nav [class*='owl-']:hover {
+    background: none !important;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .projectTestimonoals .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+
+
+    .projectTestimonoals .owl-carousel .owl-nav button.owl-next{
+        display: none;
+    }
+
+}
